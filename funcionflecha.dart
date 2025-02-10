@@ -20,7 +20,7 @@ void main(){
   print(multiplicacion(10, 5));
   print('Llamando a la funcion flechamultiplicacion');
   print(flechamultiplicacion(3, 5));
-    print('Llamando a la funcion division');
+  print('Llamando a la funcion division');
   print(division(10, 3));
   print('Llamando a la funcion flechadivision');
   print(flechadivision(10, 3));
