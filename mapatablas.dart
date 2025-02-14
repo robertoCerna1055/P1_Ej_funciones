@@ -16,12 +16,12 @@ void main() {
   // Mapa de Trabajadores
   Map<String, dynamic> trabajadores = {
     'id_trabajador': 2,
-    'nombre_trabajador': 'steakhouse1',
-    'apellido_P': 'Blvd. Zaragoza 5822',
-    'apellido_M': '9:00 am - 9:00 pm',
-    'email': '(656) 123-4567',
-    'fecha_de_nacimiento': 'Roberto Cerna',
-    'celular': 'sucursal1@gmail.com',
+    'nombre_trabajador': 'Emiliano',
+    'apellido_P': 'Guerrero',
+    'apellido_M': 'Blanco',
+    'email': 'emiliano@gmail.com',
+    'fecha_de_nacimiento': '01*/12/1998',
+    'celular': '(656) 564-4597',
     'genero': 'Masculino',
   };
 
