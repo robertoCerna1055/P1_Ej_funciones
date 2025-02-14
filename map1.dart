@@ -15,9 +15,12 @@ void main() {
     12: 'Diciembre',
   };
 
+  // Imprimir el Map
+  print("Meses del año: $mesesDelAnio");
+
   // Acceder a un valor específico
   int mesActual = 5;
-  print('El mes número $mesActual es: ${mesesDelAnio[mesActual]}');
+  print('\nEl mes número $mesActual es: ${mesesDelAnio[mesActual]}');
 
   // Imprimir el Map
   print('\nLista de meses:');
