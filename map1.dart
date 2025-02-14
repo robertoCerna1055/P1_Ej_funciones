@@ -1,4 +1,7 @@
 void main() {
+
+  // Roberto Cerna Mat: 22308051281055
+
   // Crear un Map<int, String> con los meses del año
   Map<int, String> mesesDelAnio = {
     1: 'Enero',
@@ -15,15 +18,16 @@ void main() {
     12: 'Diciembre',
   };
 
-  // Imprimir el Map
+  // Imprimir el Map completo
   print("Meses del año: $mesesDelAnio");
 
-  // Acceder a un valor específico
+  // Acceder al nombre de un mes específico usando su numero
   int mesActual = 5;
   print('\nEl mes número $mesActual es: ${mesesDelAnio[mesActual]}');
 
-  // Imprimir el Map
+  // Recorrer el Map e imprimir cada par clave-valor
   print('\nLista de meses:');
+  // Usando forEach
   mesesDelAnio.forEach((numeroMes, nombreMes) {
     print('$nombreMes');
   });
